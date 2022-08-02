@@ -1,0 +1,44 @@
+---DataBase---
+create database Bhavnacorp
+
+use Bhavnacorp
+----Table Creation for PersonalDetails , OfficialDetails and SalaryDetails----
+create table PersonalDetails(Personalid int primary key,Personname nvarchar(20),age int, Address nvarchar(50));
+
+create table OfficialDetails(OID int primary key REFERENCES PersonalDetails(Personalid),Designation varchar(50) ,phonenumber long, ofclocation nvarchar(20));
+
+create table SalaryDetails(SID int primary key REFERENCES OfficialDetails(Officeid) ,BasicSalary money,hra money,fixed money);
+select * from PersonalDetails
+
+select * from OfficialDetails
+
+select * from SalaryDetails
+
+insert into PersonalDetails values(1,'Mohit',25,'HYD')
+insert into PersonalDetails values(2,'Vyshnavi',32,'Noida')
+insert into PersonalDetails values(3,'Sahiti',26,'Lucknow')
+insert into PersonalDetails values(4,'Dhanu Sheela',21,'Us')
+
+insert into OfficialDetails values(1,'Mentor',6786567678,'HYD')
+insert into OfficialDetails values(2,'Developer',56788987665,'Noida')
+insert into OfficialDetails values(3,'Developer',458797898,'Noida')
+insert into OfficialDetails values(4,'Developer',78654678,'Us')
+
+delete from SalaryDetails where SID=4 
+
+delete from OfficialDetails where OID=4 
+
+update PersonalDetails set name='Lakshmi' where Personalid=1
+insert into SalaryDetails values(1,10000,2000,2400)
+insert into SalaryDetails values(2,15000,2100,2200)
+insert into SalaryDetails values(3,18000,2200,2300)
+insert into SalaryDetails values(4,19000,2300,2700)
+
+select Min(BasicSalary) from SalaryDetails 
+
+select Max(BasicSalary) from SalaryDetails 
+
+select Avg(BasicSalary) from SalaryDetails 
+
+select Count(SID) from SalaryDetails
+

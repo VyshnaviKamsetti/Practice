@@ -1,0 +1,98 @@
+using System;
+
+namespace SwitchCase
+{
+    class Program
+    {
+
+        
+
+        static void Main(string[] args)
+        {
+            int Id;
+            string FirstName;
+            string LastName;
+            long MobileNumber;
+            string Course;
+            decimal Fee;
+            Console.WriteLine("choose 1 or 2 or 3");
+            int Option = int.Parse(Console.ReadLine());
+
+            switch (Option)
+            {
+                case 1:
+                    Console.WriteLine("1 for Palindrom");
+                    int number, r, sum = 0, temp;
+                    Console.Write(" Enter a number: ");
+                    number = int.Parse(Console.ReadLine());
+                    temp = number;
+                    while (number > 0)
+                    {
+                        r = number % 10;
+                        number = number / 10;
+                        sum = sum * 10 + r;
+                    }
+                    Console.WriteLine(" The Reversed Number is" + sum);
+                    if (temp == sum)
+                    {
+                        Console.WriteLine(" Number is Palindrome");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Number is not a palindrome");
+                    }
+                    Console.ReadLine();
+                    break;
+                case 2:
+                    int rem, s = 0;
+                    Console.Write("Enter Your Number : ");
+                    number = int.Parse(Console.ReadLine());
+
+                    temp = number;
+                    while (number > 0)
+                    {
+                        rem = number % 10;
+                        s = s + (rem * rem * rem);
+                        number = number / 10;
+                    }
+
+                    if (temp == s)
+                    {
+                        Console.WriteLine(temp + " Is A Armstrong Number");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine(temp + " Is Not A Armstrong Number");
+                    }
+
+                    break;
+
+                case 3:
+                    Console.WriteLine("Enter Id");
+                    Id = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Your Id is " + Id);
+                    Console.WriteLine("Enter FirstName");
+                    FirstName = Console.ReadLine();
+                    Console.WriteLine("Your FirstName is " + FirstName);
+                    Console.WriteLine("Enter LastName");
+                    LastName = Console.ReadLine();
+                    Console.WriteLine("Your LastName is " + LastName);
+                    Console.WriteLine("Enter MobileNumber");
+                    MobileNumber = long.Parse(Console.ReadLine());
+                    Console.WriteLine("Your Mobile Number is " + MobileNumber);
+                    Console.WriteLine("Enter Course");
+                    Course = Console.ReadLine();
+                    Console.WriteLine("Your Course is " + Course);
+                    Console.WriteLine("Enter Fee");
+                    Fee = decimal.Parse(Console.ReadLine());
+                    Console.WriteLine("Course Fee is " + Fee);
+                    break;
+            }
+
+
+
+        }
+    }
+}
+

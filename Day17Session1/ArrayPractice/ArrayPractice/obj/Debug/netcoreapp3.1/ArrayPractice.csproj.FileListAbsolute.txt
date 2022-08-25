@@ -1,0 +1,17 @@
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.exe
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.deps.json
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.runtimeconfig.json
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.runtimeconfig.dev.json
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.dll
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\ArrayPractice.pdb
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.csproj.AssemblyReference.cache
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.AssemblyInfoInputs.cache
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.AssemblyInfo.cs
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.csproj.CoreCompileInputs.cache
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.dll
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.pdb
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.genruntimeconfig.cache
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+D:\Training\Day17Session1\ArrayPractice\ArrayPractice\obj\Debug\netcoreapp3.1\ArrayPractice.csproj.CopyComplete
